@@ -231,3 +231,12 @@ XlsxWriter==3.2.2
 yarl==1.18.3
 zipp==3.21.0
 zstandard==0.23.0
+
+#Add secrets:
+
+# Add a safe placeholder file
+#cp .env .env.example
+#nano .env.example  # Replace keys with <YOUR_API_KEY>, etc.
+#git add .env.example
+#git commit -m "Add .env.example with placeholders"
+#git push origin main
